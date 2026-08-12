@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# my settings
+.cluade/
+.Trae/
+.idle/
+.vscode/
+
 # Distribution / packaging
 .Python
 build/
