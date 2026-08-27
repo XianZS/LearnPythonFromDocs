@@ -90,4 +90,53 @@ kwargs = {
     "f": 6,
 }
 
-func3(*args, **kwargs)
+# func3(*args, **kwargs)
+
+
+# --- 4.9.6.Lambda 表达式
+# lambda 传入参数:简化函数体内容
+# a*10+b*3
+def add1(a, b):
+    return a * 10 + b * 3
+
+
+result1 = add1(11, 3)
+f = lambda a, b: a * 10 + b * 3
+result2 = f(11, 3)
+# print(f"[result1] >>> {result1}")
+# print(f"[result2] >>> {result2}")
+#
+stus = [
+    ["jom", 19, "ShangHai"],
+    ["kom", 11, "ShangHai"],
+    ["lom", 33, "ShangHai"],
+    ["aom", 19, "ShangHai"],
+    ["som", 20, "ShangHai"],
+    ["dom", 23, "ShangHai"],
+]
+
+stus.sort(key=lambda child: child[1])
+
+# print(stus)
+
+
+# --- 4.9.7.文档字符串
+def mul(a: int, b: int, c: int) -> int:
+    """
+    mul a and b and c
+
+    a*b >> a_b
+    a_b*c >>> result
+    return result
+    """
+    return a * b * c
+
+
+# doc = mul.__doc__
+# print(doc)
+
+print(mul(1, 2, 3))
+
+
+if __name__ == "__main__":
+    pass
