@@ -2,18 +2,11 @@
 
 （`LearnPythonFromDocs`）
 
+<font color="red">**适合中国宝宝学习的`python`教程!**</font>
+
 > 不刷短视频教程，不背二手笔记 —— 直接啃 **`Python` 3.14 官方教程（中文翻译版）**，配合本地可运行的示例脚本，一边看文档一边敲代码。
 >
 > 本仓库是 B 站系列视频 **《从官方文档学 `Python`》** 的配套代码与规划文档。
-
-## 目录
-
-- [系列简介](#系列简介)
-- [B 站系列（合集）](#b-站系列合集)
-- [获取项目（git clone）](#获取项目git-clone)
-- [环境说明](#环境说明)
-- [项目结构](#项目结构)
-- [如何运行示例](#如何运行示例)
 
 ## 🎬 系列简介
 
@@ -37,30 +30,6 @@ git clone git@github.com:XianZS/LearnPythonFromDocs.git
 git clone https://github.com/XianZS/LearnPythonFromDocs.git
 
 cd LearnPythonFromDocs
-```
-
-## ⚙️ 环境说明
-
-本机开发环境：
-
-| 项目 | 值 |
-| --- | --- |
-| `conda` 环境 | `lpfd` |
-| `Python` 版本 | 3.14.6（`/home/byqh/miniconda3/envs/lpfd/bin/python`） |
-| 官方文档版本 | `Python` 3.14 中文翻译版 |
-| 操作系统 | `Linux`（`WSL2`） |
-
-激活与验证：
-
-```bash
-# 创建 conda 环境（首次使用）
-conda create -n lpfd python=3.14
-
-# 激活环境
-conda activate lpfd
-
-# 验证环境
-python --version   # 期望输出 Python 3.14.x
 ```
 
 ## 📁 项目结构
@@ -88,20 +57,6 @@ LearnPythonFromDocs/
 ```
 
 脚本命名规则：`<章>_<节>_<主题>_use.py`，与官方文档的小节编号一一对应。
-
-## ▶️ 如何运行示例
-
-```bash
-# 激活环境
-conda activate lpfd
-
-# 运行任意脚本
-python Tutorial/Chapter_2/2_1_1.py hello world
-python Tutorial/Chapter_4/4_1_if_use.py
-python Tutorial/Chapter_4/4_3_range_use.py
-```
-
-需要交互输入的脚本（如 `4_1_if_use.py` 会 `input()`）直接在终端里输入即可。
 
 ## 📧 联系
 
