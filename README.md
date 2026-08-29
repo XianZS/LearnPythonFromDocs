@@ -18,7 +18,7 @@
 
 ## 📺 B 站系列（合集）
 
-🔗 合集地址：<https://space.bilibili.com/3690991649294439/lists/8804339>
+🔗 合集地址：<https://space.bilibili.com/3690991649294439/lists/7284550>
 
 ## 📥 获取项目（`git clone`）
 
